@@ -7,8 +7,9 @@
 - Codelion '프론트엔드 트랙 - React'
   - 챕터4. 리액트 라우터 활용하기& 폼제출 & memo
   - 챕터6. REST api 연동 axios
+- (추가) [REST API가 뭔가요?](https://www.youtube.com/watch?v=iOueE9AXDQQ)
 
-| ⚠ 위 두가지 강의를 수강하지 않으면 사전 과제를 진행하기 어렵습니다.
+| ⚠ 위 강의를 수강하지 않으면 사전 과제를 진행하기 어렵습니다.
 
 ## ⚙️ 실습 준비
 
