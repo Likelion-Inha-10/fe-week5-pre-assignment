@@ -46,10 +46,10 @@ const CreateArticle = ({ host }) => {
         value={body}
       />
       <br></br>
-
       <button onClick={submitArticle}>방명록 남기기!</button>
     </div>
   );
 };
 
 export default CreateArticle;
+//?
