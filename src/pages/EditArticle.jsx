@@ -21,8 +21,8 @@ const EditArticle = () => {
       .put(`${API_URL}articles/${articleId}`, { body, title })
       .then((response) => {
         console.log("update complete");
+        navigate(-1);
       });
-    navigate(-1);
   };
 
   const titleChange = (e) => {

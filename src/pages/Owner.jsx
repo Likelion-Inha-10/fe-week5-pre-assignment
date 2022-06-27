@@ -28,22 +28,6 @@ const Owner = () => {
     });
   }, []);
 
-  useEffect(() => {
-    axios.get(`${API_URL}${ownerId}/articles`).then((response) => {
-      const titleList =
-        response.data.length === 0 ? (
-          <p>방명록이 비었습니다.</p>
-        ) : (
-          response.data.map((article) => (
-            <Link to={`/articles/${article.id}`}>
-              <li id={article.id}>{article.title}</li>
-            </Link>
-          ))
-        );
-      setArticleList(titleList);
-    });
-  }, [articleList]);
-
   return (
     <div>
       <h1>{ownerId}님의 방명록</h1>

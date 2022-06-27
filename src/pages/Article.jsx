@@ -34,19 +34,6 @@ const Article = () => {
       });
   }, []);
 
-  useEffect(() => {
-    axios
-      .get(`${API_URL}articles/${articleId}`)
-      .then((response) => {
-        setTitle(response.data.title);
-        setBody(response.data.body);
-        setTime(response.data.createdAt);
-      })
-      .catch((error) => {
-        navigate(`/wrong/Address`);
-      });
-  }, [title]);
-
   return (
     <div>
       <h1>{title}</h1>
