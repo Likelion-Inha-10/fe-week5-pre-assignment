@@ -72,3 +72,9 @@ API 호출 방법을 확인하기 위해 반드시 API DOCS 페이지를 정독�
 ## 🤗 메인 과제 미리보기
 
 https://github.com/Likelion-Inha-10/fe-gallery-project
+
+## 결과 영상
+
+https://user-images.githubusercontent.com/103057334/177598983-67836bd6-6d71-4590-b912-8fcc817eb66f.mp4
+
+
